@@ -160,25 +160,88 @@ i {
 
 /* Small devices (portrait phones, 576px and up) */
 @media (max-width: 575px) {
-  /* styles */
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767px) {
-  /* styles */
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) {
-  /* styles */
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* styles */
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  /* styles */
-}
+  header h1 {
+  font-size: 36px;
+  }
+  .coming-soon {
+  font-size: 18px;
+  }
+  main p {
+  font-size: 18px;
+  }
+  form input[type="email"] {
+  font-size: 14px;
+  }
+  form button[type="submit"] {
+  font-size: 14px;
+  }
+  footer i {
+  font-size: 18px;
+  }
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767px) {
+  header h1 {
+  font-size: 48px;
+  }
+  .coming-soon {
+  font-size: 24px;
+  }
+  main p {
+  font-size: 24px;
+  }
+  form input[type="email"] {
+  font-size: 16px;
+  }
+  form button[type="submit"] {
+  font-size: 16px;
+  }
+  footer i {
+  font-size: 24px;
+  }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991px) {
+  header h1 {
+  font-size: 56px;
+  }
+  .coming-soon {
+  font-size: 28px;
+  }
+  main p {
+  font-size: 28px;
+  }
+  form input[type="email"] {
+  font-size: 18px;
+  }
+  form button[type="submit"] {
+  font-size: 18px;
+  }
+  footer i {
+  font-size: 28px;
+  }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+  header h1 {
+  font-size: 72px;
+  }
+  .coming-soon {
+  font-size: 42px;
+  }
+  main p {
+  font-size: 36px;
+  }
+  form input[type="email"] {
+  font-size: 18px;
+  }
+  form button[type="submit"] {
+  font-size: 18px;
+  }
+  footer i {
+  font-size: 36px;
+  }
+  }
