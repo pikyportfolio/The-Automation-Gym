@@ -1,0 +1,159 @@
+body {
+  background-color: #1c1c1e;
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 72px;
+  margin: 0;
+  font-weight: bold;
+  text-shadow: 1px 1px #333333;
+}
+
+.coming-soon {
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+}
+
+/*Dot animation, useless but cool.*/
+.dot {
+  animation: dots 2s ease-in-out infinite;
+  display: inline-block;
+}
+
+@keyframes dots {
+  0% {
+    transform: translateY(0);
+  }
+  33.33% {
+    transform: translateY(-20px);
+  }
+  66.66% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.dot:nth-of-type(1) {
+  animation-delay: 0s;
+}
+
+.dot:nth-of-type(2) {
+  animation-delay: 0.5s;
+}
+
+.dot:nth-of-type(3) {
+  animation-delay: 1s;
+}
+
+
+p {
+  font-size: 36px;
+  margin: 0;
+  font-weight: bold;
+  text-shadow: 1px 1px #333333;
+}
+
+main {
+  width: 80%;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+p {
+  font-size: 24px;
+  margin-bottom: 48px;
+}
+
+form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+  background-color: #333333;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 1px 1px #1c1c1e;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 4px;
+  background-color: #666666;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+input[type="email"]:focus {
+  outline: none;
+  background-color: #999999;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  background-color: #32cd32;
+  color: #1c1c1e;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 1px 1px #32cd32;
+}
+
+button[type="submit"]:hover {
+  background-color: #00ff00;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  padding: 12px 0;
+}
+
+a {
+  color: white;
+  margin: 0 24px;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #00ff00;
+}
+
+i {
+  font-size: 36px;
+}
