@@ -71,7 +71,7 @@ h1 {
 p {
   font-size: 36px;
   margin: 0;
-  font-weight: bold;
+  font-style: italic;
   text-shadow: 1px 1px #333333;
 }
 
@@ -86,7 +86,7 @@ main {
 
 p {
   font-size: 24px;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 
 form {
@@ -140,7 +140,7 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 24px;
+  margin-bottom: 24px;
   padding: 12px 0;
 }
 
