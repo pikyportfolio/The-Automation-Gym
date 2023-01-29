@@ -157,3 +157,28 @@ a:hover {
 i {
   font-size: 36px;
 }
+
+/* Small devices (portrait phones, 576px and up) */
+@media (max-width: 575px) {
+  /* styles */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* styles */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* styles */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* styles */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* styles */
+}
