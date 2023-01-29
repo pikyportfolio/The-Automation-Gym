@@ -15,9 +15,14 @@
     </header>
     <main>
       <p>Get ready to join the journey of automation, where we share blogs, videos and more information about the topic for those curious enough to ask the right questions.</p>
-      <form form name="subscribe" method="POST" data-netlify="true">
+      <form 
+      form name="subscribe" 
+      method="POST" 
+      data-netlify-recaptcha="true"
+      data-netlify="true">
         <!-- your form fields go here -->
         <input type="email" name="email" placeholder="Enter your email">
+        <div data-netlify-recaptcha="true"></div>
         <button type="submit">Subscribe</button>
       </form>
     </main>
